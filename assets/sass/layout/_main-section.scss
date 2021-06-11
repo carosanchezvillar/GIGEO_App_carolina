@@ -39,6 +39,7 @@ section{
     font-weight: $regular;
     font-size: $xx-large;
     margin-bottom: 5%;
+    text-align: left;
 
 }
 
@@ -92,8 +93,8 @@ section{
 .thumbnail{
     
     display: flex;
-    align-items: center;s
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
     font-family: $montserrat;
     margin: .5rem 0;
 
@@ -109,9 +110,10 @@ section{
         font-size: $medium;
     
     }  
+}
     
     .thumbail__img{
-        width: 10%;
+        width: 20%;
         border-radius: 100%;
         margin-right: 5%;
     }
@@ -119,13 +121,14 @@ section{
     .thumbnail__followers{
     display: flex;
     align-items: center;
+    justify-content: left;
     font-family: $montserrat;
     margin: .5rem 0;
-    width: 60%;
+    width: 40%;
 
     }
     
 }
-}
+
 
 
